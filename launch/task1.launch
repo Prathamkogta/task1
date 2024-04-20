@@ -1,0 +1,6 @@
+<launch>
+       <node pkg="turtlesim" name="sim" type="turtlesim_node"
+output="screen"/>
+       <node pkg="task1" name="anveshak" type="task1.py"
+output="screen"/>
+</launch>
